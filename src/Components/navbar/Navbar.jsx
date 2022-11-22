@@ -92,8 +92,39 @@ const Navbar = () => {
               <span>Los Angeles, CA</span>
             </div>
             <div className="nav-social-media">
-              <ul></ul>
-              )
+              <ul>
+                <li>
+                  <a
+                    href="/"
+                    style={{
+                      bottom: navOpen ? "0" : "-20px",
+                      opacity: navOpen ? "1" : "0",
+                      transitionDelay: navOpen ? "1.3s" : "0s"
+                    }}
+                  >
+                    Github
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/"
+                    style={{
+                      bottom: navOpen ? "0" : "-20px",
+                      opacity: navOpen ? "1" : "0",
+                      transitionDelay: navOpen ? "1.4s" : "0s"
+                    }}
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  )
 }
 
-              export default Navbar
+export default Navbar
